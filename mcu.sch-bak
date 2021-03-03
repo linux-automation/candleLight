@@ -1,56 +1,20 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:stm32
-LIBS:can_transceivers
-LIBS:sub-d9
-LIBS:micro-usb-ab
-LIBS:con_swd
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:candleLight-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
-Date ""
-Rev ""
+Title "candleLight"
+Date "2021-03-03"
+Rev "R01"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "released"
+Comment2 "candleLight"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 56F3B243
 P 5750 6000
 F 0 "#PWR01" H 5750 5750 50  0001 C CNN
@@ -63,7 +27,7 @@ $EndComp
 Text HLabel 1150 2500 0    60   BiDi ~ 0
 NRST
 $Comp
-L +3V3 #PWR02
+L power:+3V3 #PWR02
 U 1 1 56F3BCC8
 P 2000 2900
 F 0 "#PWR02" H 2000 2750 50  0001 C CNN
@@ -74,7 +38,7 @@ F 3 "" H 2000 2900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L STM32F072C8Tx U201
+L candleLight-rescue:STM32F072C8Tx U201
 U 1 1 56F46EB5
 P 5800 3900
 F 0 "U201" H 2100 5725 50  0000 L BNN
@@ -97,7 +61,7 @@ CAN_RX
 Text HLabel 1950 4700 0    60   Output ~ 0
 CAN_TX
 $Comp
-L Crystal_Small Y201
+L candleLight-rescue:Crystal_Small Y201
 U 1 1 56F47B56
 P 1350 3150
 F 0 "Y201" H 1350 3250 50  0000 C CNN
@@ -108,7 +72,7 @@ F 3 "" H 1350 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W201
+L candleLight-rescue:TEST_1P W201
 U 1 1 56F4FE08
 P 9600 4700
 F 0 "W201" V 9600 4950 50  0000 C CNN
@@ -119,7 +83,7 @@ F 3 "" H 9800 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P W202
+L candleLight-rescue:TEST_1P W202
 U 1 1 56F4FE85
 P 9600 4800
 F 0 "W202" V 9600 5050 50  0000 C CNN
@@ -130,7 +94,7 @@ F 3 "" H 9800 4800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R201
+L candleLight-rescue:R R201
 U 1 1 56F508B6
 P 1150 4400
 F 0 "R201" V 1230 4400 50  0000 C CNN
@@ -141,7 +105,7 @@ F 3 "" H 1150 4400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R202
+L candleLight-rescue:R R202
 U 1 1 56F50945
 P 1150 4500
 F 0 "R202" V 1230 4500 50  0000 C CNN
@@ -152,7 +116,7 @@ F 3 "" H 1150 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR03
+L power:+3.3V #PWR03
 U 1 1 56F50A4B
 P 950 4300
 F 0 "#PWR03" H 950 4150 50  0001 C CNN
@@ -163,7 +127,7 @@ F 3 "" H 950 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R203
+L candleLight-rescue:R R203
 U 1 1 56F50DA3
 P 3900 6500
 F 0 "R203" V 3980 6500 50  0000 C CNN
@@ -174,7 +138,7 @@ F 3 "" H 3900 6500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R204
+L candleLight-rescue:R R204
 U 1 1 56F50E38
 P 3900 6900
 F 0 "R204" V 3980 6900 50  0000 C CNN
@@ -185,7 +149,7 @@ F 3 "" H 3900 6900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR04
+L power:+3.3V #PWR04
 U 1 1 56F51029
 P 3900 6350
 F 0 "#PWR04" H 3900 6200 50  0001 C CNN
@@ -196,7 +160,7 @@ F 3 "" H 3900 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 56F5105F
 P 3900 7050
 F 0 "#PWR05" H 3900 6800 50  0001 C CNN
@@ -207,7 +171,7 @@ F 3 "" H 3900 7050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C202
+L candleLight-rescue:C_Small C202
 U 1 1 56F51A5F
 P 1100 3250
 F 0 "C202" V 950 3150 50  0000 L CNN
@@ -218,7 +182,7 @@ F 3 "" H 1100 3250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 56F51B19
 P 850 3150
 F 0 "#PWR06" H 850 2900 50  0001 C CNN
@@ -229,7 +193,7 @@ F 3 "" H 850 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR07
+L power:+3.3V #PWR07
 U 1 1 56F53AB0
 P 5750 1850
 F 0 "#PWR07" H 5750 1700 50  0001 C CNN
@@ -240,7 +204,7 @@ F 3 "" H 5750 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C206
+L candleLight-rescue:C_Small C206
 U 1 1 56F53D48
 P 2500 6850
 F 0 "C206" H 2510 6920 50  0000 L CNN
@@ -251,7 +215,7 @@ F 3 "" H 2500 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L power:+3.3V #PWR08
 U 1 1 56F53F33
 P 2500 6750
 F 0 "#PWR08" H 2500 6600 50  0001 C CNN
@@ -262,7 +226,7 @@ F 3 "" H 2500 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 56F53F61
 P 2500 6950
 F 0 "#PWR09" H 2500 6700 50  0001 C CNN
@@ -273,7 +237,7 @@ F 3 "" H 2500 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C205
+L candleLight-rescue:C_Small C205
 U 1 1 56F5404F
 P 2200 6850
 F 0 "C205" H 2210 6920 50  0000 L CNN
@@ -284,7 +248,7 @@ F 3 "" H 2200 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L power:+3.3V #PWR010
 U 1 1 56F54055
 P 2200 6750
 F 0 "#PWR010" H 2200 6600 50  0001 C CNN
@@ -295,7 +259,7 @@ F 3 "" H 2200 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 56F5405B
 P 2200 6950
 F 0 "#PWR011" H 2200 6700 50  0001 C CNN
@@ -306,7 +270,7 @@ F 3 "" H 2200 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C204
+L candleLight-rescue:C_Small C204
 U 1 1 56F540FA
 P 1900 6850
 F 0 "C204" H 1910 6920 50  0000 L CNN
@@ -317,7 +281,7 @@ F 3 "" H 1900 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR012
+L power:+3.3V #PWR012
 U 1 1 56F54100
 P 1900 6750
 F 0 "#PWR012" H 1900 6600 50  0001 C CNN
@@ -328,7 +292,7 @@ F 3 "" H 1900 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 56F54106
 P 1900 6950
 F 0 "#PWR013" H 1900 6700 50  0001 C CNN
@@ -339,7 +303,7 @@ F 3 "" H 1900 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C203
+L candleLight-rescue:C_Small C203
 U 1 1 56F5410C
 P 1600 6850
 F 0 "C203" H 1610 6920 50  0000 L CNN
@@ -350,7 +314,7 @@ F 3 "" H 1600 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR014
+L power:+3.3V #PWR014
 U 1 1 56F54112
 P 1600 6750
 F 0 "#PWR014" H 1600 6600 50  0001 C CNN
@@ -361,7 +325,7 @@ F 3 "" H 1600 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 56F54118
 P 1600 6950
 F 0 "#PWR015" H 1600 6700 50  0001 C CNN
@@ -372,7 +336,7 @@ F 3 "" H 1600 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C207
+L candleLight-rescue:C_Small C207
 U 1 1 56F54256
 P 2950 6850
 F 0 "C207" H 2960 6920 50  0000 L CNN
@@ -383,7 +347,7 @@ F 3 "" H 2950 6850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR016
+L power:+3.3V #PWR016
 U 1 1 56F5425C
 P 2950 6750
 F 0 "#PWR016" H 2950 6600 50  0001 C CNN
@@ -394,7 +358,7 @@ F 3 "" H 2950 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 56F54262
 P 2950 6950
 F 0 "#PWR017" H 2950 6700 50  0001 C CNN
@@ -429,7 +393,7 @@ NoConn ~ 9600 4600
 NoConn ~ 9600 5300
 NoConn ~ 2000 4300
 $Comp
-L TEST_1P W203
+L candleLight-rescue:TEST_1P W203
 U 1 1 5722422D
 P 1400 4400
 F 0 "W203" H 1400 4670 50  0000 C CNN
@@ -440,7 +404,7 @@ F 3 "" H 1600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W204
+L candleLight-rescue:TEST_1P W204
 U 1 1 572242A6
 P 1400 4500
 F 0 "W204" H 1400 4770 50  0000 C CNN
@@ -559,7 +523,7 @@ Wire Wire Line
 	4250 6700 3900 6700
 Connection ~ 3900 6700
 $Comp
-L C_Small C208
+L candleLight-rescue:C_Small C208
 U 1 1 57225548
 P 1350 2650
 F 0 "C208" H 1360 2720 50  0000 L CNN
@@ -570,7 +534,7 @@ F 3 "" H 1350 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 572257C0
 P 1350 2750
 F 0 "#PWR018" H 1350 2500 50  0001 C CNN
@@ -588,7 +552,7 @@ Wire Wire Line
 	1350 2500 1350 2550
 Connection ~ 1350 2500
 $Comp
-L TEST_1P W205
+L candleLight-rescue:TEST_1P W205
 U 1 1 57225CE8
 P 2000 5000
 F 0 "W205" V 2000 5300 50  0000 C CNN
@@ -599,7 +563,7 @@ F 3 "" H 2200 5000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W206
+L candleLight-rescue:TEST_1P W206
 U 1 1 57225F09
 P 2000 5100
 F 0 "W206" V 2000 5400 50  0000 C CNN
@@ -610,7 +574,7 @@ F 3 "" H 2200 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W207
+L candleLight-rescue:TEST_1P W207
 U 1 1 57225F5B
 P 2000 5200
 F 0 "W207" V 2000 5500 50  0000 C CNN
@@ -621,7 +585,7 @@ F 3 "" H 2200 5200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P W208
+L candleLight-rescue:TEST_1P W208
 U 1 1 57225FCB
 P 2000 5300
 F 0 "W208" V 2000 5600 50  0000 C CNN
@@ -634,7 +598,7 @@ $EndComp
 Connection ~ 1400 4400
 Connection ~ 1400 4500
 $Comp
-L C_Small C201
+L candleLight-rescue:C_Small C201
 U 1 1 56F518F0
 P 1100 3050
 F 0 "C201" V 1350 2950 50  0000 L CNN

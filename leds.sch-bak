@@ -1,56 +1,20 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:stm32
-LIBS:can_transceivers
-LIBS:sub-d9
-LIBS:micro-usb-ab
-LIBS:con_swd
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:candleLight-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
-Date ""
-Rev ""
+Title "candleLight"
+Date "2021-03-03"
+Rev "R01"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "released"
+Comment2 "candleLight"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D601
+L candleLight-rescue:LED D601
 U 1 1 56F5F775
 P 5900 3650
 F 0 "D601" H 5900 3750 50  0000 C CNN
@@ -61,7 +25,7 @@ F 3 "" H 5900 3650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D602
+L candleLight-rescue:LED D602
 U 1 1 56F5F923
 P 5900 4000
 F 0 "D602" H 5900 4100 50  0000 C CNN
@@ -72,7 +36,7 @@ F 3 "" H 5900 4000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D603
+L candleLight-rescue:LED D603
 U 1 1 56F5F971
 P 5900 4350
 F 0 "D603" H 5900 4450 50  0000 C CNN
@@ -83,7 +47,7 @@ F 3 "" H 5900 4350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR038
+L power:+3V3 #PWR038
 U 1 1 56F5F9AC
 P 5150 3550
 F 0 "#PWR038" H 5150 3400 50  0001 C CNN
@@ -98,7 +62,7 @@ Wire Wire Line
 Connection ~ 5150 3650
 Connection ~ 5150 4000
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 56F5F9E1
 P 6200 4500
 F 0 "#PWR039" H 6200 4250 50  0001 C CNN
@@ -117,7 +81,7 @@ LED2
 Text HLabel 6100 3650 2    60   Input ~ 0
 LED1
 $Comp
-L R R601
+L candleLight-rescue:R R601
 U 1 1 56F67521
 P 5450 3650
 F 0 "R601" V 5530 3650 50  0000 C CNN
@@ -128,7 +92,7 @@ F 3 "" H 5450 3650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R602
+L candleLight-rescue:R R602
 U 1 1 56F67576
 P 5450 4000
 F 0 "R602" V 5530 4000 50  0000 C CNN
@@ -147,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 4000 5700 4000
 $Comp
-L R R603
+L candleLight-rescue:R R603
 U 1 1 56F67763
 P 5450 4350
 F 0 "R603" V 5530 4350 50  0000 C CNN

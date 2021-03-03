@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "candleLight"
+Date "2021-03-03"
+Rev "R01"
+Comp "Linux Automation GmbH"
+Comment1 "released"
+Comment2 "candleLight-S01-R01-V01-C00"
+Comment3 "github.com/linux-automation/candlelight-S01"
 Comment4 ""
 $EndDescr
 $Sheet
