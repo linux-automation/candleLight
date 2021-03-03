@@ -1,5 +1,41 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:can_transceivers
+LIBS:sub-d9
+LIBS:micro-usb-ab
+LIBS:con_swd
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:candleLight-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +50,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L candleLight-rescue:MCP1754ST-3302E_MB U301
+L MCP1754ST-3302E/MB U301
 U 1 1 56F609E7
 P 5650 3750
 F 0 "U301" H 5750 3600 50  0000 C CNN
@@ -25,7 +61,7 @@ F 3 "" H 5650 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L GND #PWR019
 U 1 1 56F60A54
 P 5650 4300
 F 0 "#PWR019" H 5650 4050 50  0001 C CNN
@@ -36,7 +72,7 @@ F 3 "" H 5650 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR020
+L +5V #PWR020
 U 1 1 56F60A70
 P 4900 3750
 F 0 "#PWR020" H 4900 3600 50  0001 C CNN
@@ -47,7 +83,7 @@ F 3 "" H 4900 3750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR021
+L +3V3 #PWR021
 U 1 1 56F60A9D
 P 6400 3750
 F 0 "#PWR021" H 6400 3600 50  0001 C CNN
@@ -58,7 +94,7 @@ F 3 "" H 6400 3750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L candleLight-rescue:C_Small C301
+L C_Small C301
 U 1 1 56F60BBB
 P 5100 3950
 F 0 "C301" H 5110 4020 50  0000 L CNN
@@ -69,7 +105,7 @@ F 3 "" H 5100 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L candleLight-rescue:C_Small C303
+L C_Small C303
 U 1 1 56F611D6
 P 6150 3950
 F 0 "C303" H 6160 4020 50  0000 L CNN
@@ -98,7 +134,7 @@ Wire Wire Line
 	5950 3750 6400 3750
 Connection ~ 6150 3750
 $Comp
-L candleLight-rescue:TEST_1P W301
+L TEST_1P W301
 U 1 1 57223B24
 P 5100 3750
 F 0 "W301" H 5100 4020 50  0000 C CNN
@@ -109,7 +145,7 @@ F 3 "" H 5300 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L candleLight-rescue:TEST_1P W302
+L TEST_1P W302
 U 1 1 57223B69
 P 5100 4150
 F 0 "W302" H 5100 4420 50  0000 C CNN
@@ -123,7 +159,7 @@ Wire Wire Line
 	5650 3950 5650 4300
 Connection ~ 5100 4150
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 57229925
 P 3150 4050
 F 0 "#PWR022" H 3150 3800 50  0001 C CNN
@@ -134,7 +170,7 @@ F 3 "" H 3150 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG023
+L PWR_FLAG #FLG023
 U 1 1 57229968
 P 3150 4050
 F 0 "#FLG023" H 3150 4145 50  0001 C CNN

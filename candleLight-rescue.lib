@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# candleLight-rescue_CON_SWD
+# CON_SWD
 #
-DEF candleLight-rescue_CON_SWD X 0 40 Y Y 1 F N
+DEF CON_SWD X 0 40 Y Y 1 F N
 F0 "X" 0 400 60 H V C CNN
-F1 "candleLight-rescue_CON_SWD" 0 -400 60 H V C CNN
+F1 "CON_SWD" 0 -400 60 H V C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -19,11 +19,11 @@ X SWO 6 -350 -250 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_C_Small
+# C_Small
 #
-DEF candleLight-rescue_C_Small C 0 10 N N 1 F N
+DEF C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "candleLight-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_Crystal_Small
+# Crystal_Small
 #
-DEF candleLight-rescue_Crystal_Small Y 0 40 N N 1 F N
+DEF Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "candleLight-rescue_Crystal_Small" 0 -100 50 H V C CNN
+F1 "Crystal_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -60,11 +60,11 @@ X 2 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011
+# Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011
 #
-DEF candleLight-rescue_Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID 0 0 N N 1 F N
+DEF Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID 0 0 N N 1 F N
 F0 "FID" 0 150 50 H V C CNN
-F1 "candleLight-rescue_Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" 0 -150 50 H V C CNN
+F1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -75,11 +75,11 @@ X ~ ~ 0 0 0 R 5 5 1 1 N
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_LED
+# LED
 #
-DEF candleLight-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "candleLight-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -96,11 +96,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_MCP1754ST-3302E_MB
+# MCP1754ST-3302E_MB
 #
-DEF candleLight-rescue_MCP1754ST-3302E_MB U 0 30 Y Y 1 F N
+DEF MCP1754ST-3302E_MB U 0 30 Y Y 1 F N
 F0 "U" 100 -150 50 H V C CNN
-F1 "candleLight-rescue_MCP1754ST-3302E_MB" 0 150 50 H V C CNN
+F1 "MCP1754ST-3302E_MB" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -114,11 +114,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_R
+# R
 #
-DEF candleLight-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "candleLight-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -132,11 +132,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_STM32F072C8Tx
+# STM32F072C8Tx
 #
-DEF candleLight-rescue_STM32F072C8Tx U 0 40 Y Y 1 L N
+DEF STM32F072C8Tx U 0 40 Y Y 1 L N
 F0 "U" -3700 1825 50 H V L BNN
-F1 "candleLight-rescue_STM32F072C8Tx" 3700 1825 50 H V R BNN
+F1 "STM32F072C8Tx" 3700 1825 50 H V R BNN
 F2 "LQFP48" 3700 1775 50 H V R TNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -192,11 +192,11 @@ X VDDA 9 0 1900 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_SUB-D9
+# SUB-D9
 #
-DEF candleLight-rescue_SUB-D9 X 0 40 Y Y 1 F N
+DEF SUB-D9 X 0 40 Y Y 1 F N
 F0 "X" 0 550 60 H V C CNN
-F1 "candleLight-rescue_SUB-D9" 0 -550 60 H V C CNN
+F1 "SUB-D9" 0 -550 60 H V C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -214,11 +214,11 @@ X 9 9 -250 -350 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_TEST_1P
+# TEST_1P
 #
-DEF candleLight-rescue_TEST_1P W 0 30 N N 1 F N
+DEF TEST_1P W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "candleLight-rescue_TEST_1P" 0 200 50 H V C CNN
+F1 "TEST_1P" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -227,11 +227,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_TJA1051_3
+# TJA1051_3
 #
-DEF candleLight-rescue_TJA1051_3 U 0 40 Y Y 1 F N
+DEF TJA1051_3 U 0 40 Y Y 1 F N
 F0 "U" 0 600 60 H V C CNN
-F1 "candleLight-rescue_TJA1051_3" 0 0 60 V V C CNN
+F1 "TJA1051_3" 0 0 60 V V C CNN
 F2 "" 0 150 60 H V C CNN
 F3 "" 0 150 60 H V C CNN
 DRAW
@@ -247,11 +247,11 @@ X S 8 -550 300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# candleLight-rescue_USB_OTG
+# USB_OTG
 #
-DEF candleLight-rescue_USB_OTG P 0 40 Y Y 1 F N
+DEF USB_OTG P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "candleLight-rescue_USB_OTG" 0 200 50 H V C CNN
+F1 "USB_OTG" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -270,78 +270,6 @@ X D+ 3 0 -300 150 U 50 50 1 1 P
 X ID 4 100 -300 150 U 50 50 1 1 W
 X GND 5 200 -300 150 U 50 50 1 1 W
 X shield 6 400 100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3V3
-#
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
