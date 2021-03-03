@@ -17,10 +17,13 @@ $Comp
 L candleLight-rescue:MCP1754ST-3302E_MB U301
 U 1 1 56F609E7
 P 5650 3750
-F 0 "U301" H 5750 3600 50  0000 C CNN
-F 1 "MCP1754ST-3302E/MB" H 5650 3900 50  0000 C CNN
+F 0 "U301" H 5650 4067 50  0000 C CNN
+F 1 "MCP1754ST-3302E/MB" H 5650 3976 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 5650 3750 50  0001 C CNN
 F 3 "" H 5650 3750 50  0000 C CNN
+F 4 "Microchip" H 5650 3750 50  0001 C CNN "Manufacturer"
+F 5 "MCP1754ST-3302E/MB" H 5650 3750 50  0001 C CNN "MPN"
+F 6 "fit: " H 5650 3904 25  0000 C CNN "Fit"
 	1    5650 3750
 	1    0    0    -1  
 $EndComp
@@ -65,6 +68,7 @@ F 0 "C301" H 5110 4020 50  0000 L CNN
 F 1 "10uF" H 5110 3870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5100 3950 50  0001 C CNN
 F 3 "" H 5100 3950 50  0000 C CNN
+F 4 "fit: " H 5100 3950 50  0001 C CNN "Fit"
 	1    5100 3950
 	1    0    0    -1  
 $EndComp
@@ -76,6 +80,7 @@ F 0 "C303" H 6160 4020 50  0000 L CNN
 F 1 "10uF" H 6160 3870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6150 3950 50  0001 C CNN
 F 3 "" H 6150 3950 50  0000 C CNN
+F 4 "fit: " H 6150 3950 50  0001 C CNN "Fit"
 	1    6150 3950
 	1    0    0    -1  
 $EndComp
@@ -84,18 +89,17 @@ Wire Wire Line
 Connection ~ 5650 4150
 Wire Wire Line
 	6150 4150 6150 4050
-Connection ~ 6150 4150
 Wire Wire Line
-	4900 3750 5350 3750
+	4900 3750 5100 3750
 Wire Wire Line
 	5100 3850 5100 3750
 Connection ~ 5100 3750
 Wire Wire Line
 	5100 4050 5100 4150
 Wire Wire Line
-	5100 4150 6150 4150
+	5100 4150 5650 4150
 Wire Wire Line
-	5950 3750 6400 3750
+	5950 3750 6150 3750
 Connection ~ 6150 3750
 $Comp
 L candleLight-rescue:TEST_1P W301
@@ -105,6 +109,7 @@ F 0 "W301" H 5100 4020 50  0000 C CNN
 F 1 "TEST_1P" H 5100 3950 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 5300 3750 50  0001 C CNN
 F 3 "" H 5300 3750 50  0000 C CNN
+F 4 "fit: " H 5100 3750 50  0001 C CNN "Fit"
 	1    5100 3750
 	1    0    0    -1  
 $EndComp
@@ -116,11 +121,12 @@ F 0 "W302" H 5100 4420 50  0000 C CNN
 F 1 "TEST_1P" H 5100 4350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 5300 4150 50  0001 C CNN
 F 3 "" H 5300 4150 50  0000 C CNN
+F 4 "fit: " H 5100 4150 50  0001 C CNN "Fit"
 	1    5100 4150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5650 3950 5650 4300
+	5650 3950 5650 4150
 Connection ~ 5100 4150
 $Comp
 L power:GND #PWR022
@@ -144,4 +150,12 @@ F 3 "" H 3150 4050 50  0000 C CNN
 	1    3150 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5650 4150 6150 4150
+Wire Wire Line
+	5650 4150 5650 4300
+Wire Wire Line
+	5100 3750 5350 3750
+Wire Wire Line
+	6150 3750 6400 3750
 $EndSCHEMATC

@@ -45,6 +45,9 @@ F 0 "U201" H 2100 5725 50  0000 L BNN
 F 1 "STM32F072C8Tx" H 9500 5725 50  0000 R BNN
 F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 9500 5675 50  0000 R TNN
 F 3 "" H 5800 3900 50  0000 C CNN
+F 4 "STM32F072C8T6" H 5800 3900 50  0001 C CNN "MPN"
+F 5 "ST" H 5800 3900 50  0001 C CNN "Manufacturer"
+F 6 "fit: " H 5800 3900 50  0001 C CNN "Fit"
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
@@ -64,10 +67,11 @@ $Comp
 L candleLight-rescue:Crystal_Small Y201
 U 1 1 56F47B56
 P 1350 3150
-F 0 "Y201" H 1350 3250 50  0000 C CNN
-F 1 "8MHz" H 1350 3050 50  0000 C CNN
+F 0 "Y201" V 1278 3238 50  0000 L CNN
+F 1 "8MHz" V 1369 3238 50  0000 L CNN
 F 2 "Crystals:ABM3" H 1350 3150 50  0001 C CNN
 F 3 "" H 1350 3150 50  0000 C CNN
+F 4 "fit: none" V 1441 3238 25  0000 L CNN "Fit"
 	1    1350 3150
 	0    1    1    0   
 $EndComp
@@ -79,6 +83,7 @@ F 0 "W201" V 9600 4950 50  0000 C CNN
 F 1 "TEST_1P" V 9600 5200 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 4700 50  0001 C CNN
 F 3 "" H 9800 4700 50  0000 C CNN
+F 4 "fit: " H 9600 4700 50  0001 C CNN "Fit"
 	1    9600 4700
 	0    1    1    0   
 $EndComp
@@ -90,6 +95,7 @@ F 0 "W202" V 9600 5050 50  0000 C CNN
 F 1 "TEST_1P" V 9600 5300 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 4800 50  0001 C CNN
 F 3 "" H 9800 4800 50  0000 C CNN
+F 4 "fit: " H 9600 4800 50  0001 C CNN "Fit"
 	1    9600 4800
 	0    1    1    0   
 $EndComp
@@ -101,6 +107,7 @@ F 0 "R201" V 1230 4400 50  0000 C CNN
 F 1 "4K7" V 1150 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1080 4400 50  0001 C CNN
 F 3 "" H 1150 4400 50  0000 C CNN
+F 4 "fit: " H 1150 4400 50  0001 C CNN "Fit"
 	1    1150 4400
 	0    -1   -1   0   
 $EndComp
@@ -112,6 +119,7 @@ F 0 "R202" V 1230 4500 50  0000 C CNN
 F 1 "4K7" V 1150 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1080 4500 50  0001 C CNN
 F 3 "" H 1150 4500 50  0000 C CNN
+F 4 "fit: " H 1150 4500 50  0001 C CNN "Fit"
 	1    1150 4500
 	0    1    1    0   
 $EndComp
@@ -130,10 +138,11 @@ $Comp
 L candleLight-rescue:R R203
 U 1 1 56F50DA3
 P 3900 6500
-F 0 "R203" V 3980 6500 50  0000 C CNN
-F 1 "R" V 3900 6500 50  0000 C CNN
+F 0 "R203" H 3970 6572 50  0000 L CNN
+F 1 "R" H 3970 6481 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3830 6500 50  0001 C CNN
 F 3 "" H 3900 6500 50  0000 C CNN
+F 4 "fit: none" H 3970 6409 25  0000 L CNN "Fit"
 	1    3900 6500
 	1    0    0    -1  
 $EndComp
@@ -145,6 +154,7 @@ F 0 "R204" V 3980 6900 50  0000 C CNN
 F 1 "1K" V 3900 6900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3830 6900 50  0001 C CNN
 F 3 "" H 3900 6900 50  0000 C CNN
+F 4 "fit: " H 3900 6900 50  0001 C CNN "Fit"
 	1    3900 6900
 	-1   0    0    1   
 $EndComp
@@ -174,10 +184,11 @@ $Comp
 L candleLight-rescue:C_Small C202
 U 1 1 56F51A5F
 P 1100 3250
-F 0 "C202" V 950 3150 50  0000 L CNN
-F 1 "20pF" V 850 3150 50  0000 L CNN
+F 0 "C202" V 963 3250 50  0000 C CNN
+F 1 "20pF" V 872 3250 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 1100 3250 50  0001 C CNN
 F 3 "" H 1100 3250 50  0000 C CNN
+F 4 "fit: none" V 800 3250 25  0000 C CNN "Fit"
 	1    1100 3250
 	0    -1   -1   0   
 $EndComp
@@ -211,6 +222,7 @@ F 0 "C206" H 2510 6920 50  0000 L CNN
 F 1 "100nF" H 2510 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2500 6850 50  0001 C CNN
 F 3 "" H 2500 6850 50  0000 C CNN
+F 4 "fit: " H 2500 6850 50  0001 C CNN "Fit"
 	1    2500 6850
 	1    0    0    -1  
 $EndComp
@@ -244,6 +256,7 @@ F 0 "C205" H 2210 6920 50  0000 L CNN
 F 1 "100nF" H 2210 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2200 6850 50  0001 C CNN
 F 3 "" H 2200 6850 50  0000 C CNN
+F 4 "fit: " H 2200 6850 50  0001 C CNN "Fit"
 	1    2200 6850
 	1    0    0    -1  
 $EndComp
@@ -277,6 +290,7 @@ F 0 "C204" H 1910 6920 50  0000 L CNN
 F 1 "100nF" H 1910 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1900 6850 50  0001 C CNN
 F 3 "" H 1900 6850 50  0000 C CNN
+F 4 "fit: " H 1900 6850 50  0001 C CNN "Fit"
 	1    1900 6850
 	1    0    0    -1  
 $EndComp
@@ -310,6 +324,7 @@ F 0 "C203" H 1610 6920 50  0000 L CNN
 F 1 "100nF" H 1610 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1600 6850 50  0001 C CNN
 F 3 "" H 1600 6850 50  0000 C CNN
+F 4 "fit: " H 1600 6850 50  0001 C CNN "Fit"
 	1    1600 6850
 	1    0    0    -1  
 $EndComp
@@ -343,6 +358,7 @@ F 0 "C207" H 2960 6920 50  0000 L CNN
 F 1 "10uF" H 2960 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2950 6850 50  0001 C CNN
 F 3 "" H 2950 6850 50  0000 C CNN
+F 4 "fit: " H 2950 6850 50  0001 C CNN "Fit"
 	1    2950 6850
 	1    0    0    -1  
 $EndComp
@@ -400,6 +416,7 @@ F 0 "W203" H 1400 4670 50  0000 C CNN
 F 1 "TEST_1P" H 1400 4600 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 4400 50  0001 C CNN
 F 3 "" H 1600 4400 50  0000 C CNN
+F 4 "fit: " H 1400 4400 50  0001 C CNN "Fit"
 	1    1400 4400
 	1    0    0    -1  
 $EndComp
@@ -411,6 +428,7 @@ F 0 "W204" H 1400 4770 50  0000 C CNN
 F 1 "TEST_1P" H 1400 4700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 4500 50  0001 C CNN
 F 3 "" H 1600 4500 50  0000 C CNN
+F 4 "fit: " H 1400 4500 50  0001 C CNN "Fit"
 	1    1400 4500
 	-1   0    0    1   
 $EndComp
@@ -530,6 +548,7 @@ F 0 "C208" H 1360 2720 50  0000 L CNN
 F 1 "100nF" H 1360 2570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1350 2650 50  0001 C CNN
 F 3 "" H 1350 2650 50  0000 C CNN
+F 4 "fit: " H 1350 2650 50  0001 C CNN "Fit"
 	1    1350 2650
 	1    0    0    -1  
 $EndComp
@@ -559,6 +578,7 @@ F 0 "W205" V 2000 5300 50  0000 C CNN
 F 1 "TEST_1P" V 2000 5550 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5000 50  0001 C CNN
 F 3 "" H 2200 5000 50  0000 C CNN
+F 4 "fit: " H 2000 5000 50  0001 C CNN "Fit"
 	1    2000 5000
 	0    -1   -1   0   
 $EndComp
@@ -570,6 +590,7 @@ F 0 "W206" V 2000 5400 50  0000 C CNN
 F 1 "TEST_1P" V 2000 5650 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5100 50  0001 C CNN
 F 3 "" H 2200 5100 50  0000 C CNN
+F 4 "fit: " H 2000 5100 50  0001 C CNN "Fit"
 	1    2000 5100
 	0    -1   -1   0   
 $EndComp
@@ -581,6 +602,7 @@ F 0 "W207" V 2000 5500 50  0000 C CNN
 F 1 "TEST_1P" V 2000 5750 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5200 50  0001 C CNN
 F 3 "" H 2200 5200 50  0000 C CNN
+F 4 "fit: " H 2000 5200 50  0001 C CNN "Fit"
 	1    2000 5200
 	0    -1   -1   0   
 $EndComp
@@ -592,6 +614,7 @@ F 0 "W208" V 2000 5600 50  0000 C CNN
 F 1 "TEST_1P" V 2000 5850 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5300 50  0001 C CNN
 F 3 "" H 2200 5300 50  0000 C CNN
+F 4 "fit: " H 2000 5300 50  0001 C CNN "Fit"
 	1    2000 5300
 	0    -1   -1   0   
 $EndComp
@@ -601,10 +624,11 @@ $Comp
 L candleLight-rescue:C_Small C201
 U 1 1 56F518F0
 P 1100 3050
-F 0 "C201" V 1350 2950 50  0000 L CNN
-F 1 "20pF" V 1250 2950 50  0000 L CNN
+F 0 "C201" V 1381 3050 50  0000 C CNN
+F 1 "20pF" V 1290 3050 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 1100 3050 50  0001 C CNN
 F 3 "" H 1100 3050 50  0000 C CNN
+F 4 "fit: none" V 1218 3050 25  0000 C CNN "Fit"
 	1    1100 3050
 	0    -1   -1   0   
 $EndComp
@@ -619,4 +643,6 @@ Wire Wire Line
 Wire Wire Line
 	900  3250 1000 3250
 Connection ~ 900  3150
+Text Notes 4250 6525 0    60   ~ 0
+Short this footprint and power up the board to enter DFU bootloader mode.
 $EndSCHEMATC
