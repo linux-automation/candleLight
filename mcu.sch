@@ -78,25 +78,25 @@ $EndComp
 $Comp
 L candleLight-rescue:TEST_1P W201
 U 1 1 56F4FE08
-P 9600 4700
-F 0 "W201" V 9600 4950 50  0000 C CNN
-F 1 "TEST_1P" V 9600 5200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 4700 50  0001 C CNN
-F 3 "" H 9800 4700 50  0000 C CNN
-F 4 "fit: " H 9600 4700 50  0001 C CNN "Fit"
-	1    9600 4700
+P 10150 4700
+F 0 "W201" V 10150 4950 50  0000 C CNN
+F 1 "TEST_1P" V 10150 5200 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10350 4700 50  0001 C CNN
+F 3 "" H 10350 4700 50  0000 C CNN
+F 4 "fit: " H 10150 4700 50  0001 C CNN "Fit"
+	1    10150 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L candleLight-rescue:TEST_1P W202
 U 1 1 56F4FE85
-P 9600 4800
-F 0 "W202" V 9600 5050 50  0000 C CNN
-F 1 "TEST_1P" V 9600 5300 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 4800 50  0001 C CNN
-F 3 "" H 9800 4800 50  0000 C CNN
-F 4 "fit: " H 9600 4800 50  0001 C CNN "Fit"
-	1    9600 4800
+P 10150 4800
+F 0 "W202" V 10150 5050 50  0000 C CNN
+F 1 "TEST_1P" V 10150 5300 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10350 4800 50  0001 C CNN
+F 3 "" H 10350 4800 50  0000 C CNN
+F 4 "fit: " H 10150 4800 50  0001 C CNN "Fit"
+	1    10150 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -573,49 +573,49 @@ Connection ~ 1350 2500
 $Comp
 L candleLight-rescue:TEST_1P W205
 U 1 1 57225CE8
-P 2000 5000
-F 0 "W205" V 2000 5300 50  0000 C CNN
-F 1 "TEST_1P" V 2000 5550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5000 50  0001 C CNN
-F 3 "" H 2200 5000 50  0000 C CNN
-F 4 "fit: " H 2000 5000 50  0001 C CNN "Fit"
-	1    2000 5000
+P 1325 5000
+F 0 "W205" V 1325 5300 50  0000 C CNN
+F 1 "TEST_1P" V 1325 5550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1525 5000 50  0001 C CNN
+F 3 "" H 1525 5000 50  0000 C CNN
+F 4 "fit: " H 1325 5000 50  0001 C CNN "Fit"
+	1    1325 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L candleLight-rescue:TEST_1P W206
 U 1 1 57225F09
-P 2000 5100
-F 0 "W206" V 2000 5400 50  0000 C CNN
-F 1 "TEST_1P" V 2000 5650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5100 50  0001 C CNN
-F 3 "" H 2200 5100 50  0000 C CNN
-F 4 "fit: " H 2000 5100 50  0001 C CNN "Fit"
-	1    2000 5100
+P 1325 5100
+F 0 "W206" V 1325 5400 50  0000 C CNN
+F 1 "TEST_1P" V 1325 5650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1525 5100 50  0001 C CNN
+F 3 "" H 1525 5100 50  0000 C CNN
+F 4 "fit: " H 1325 5100 50  0001 C CNN "Fit"
+	1    1325 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L candleLight-rescue:TEST_1P W207
 U 1 1 57225F5B
-P 2000 5200
-F 0 "W207" V 2000 5500 50  0000 C CNN
-F 1 "TEST_1P" V 2000 5750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5200 50  0001 C CNN
-F 3 "" H 2200 5200 50  0000 C CNN
-F 4 "fit: " H 2000 5200 50  0001 C CNN "Fit"
-	1    2000 5200
+P 1325 5200
+F 0 "W207" V 1325 5500 50  0000 C CNN
+F 1 "TEST_1P" V 1325 5750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1525 5200 50  0001 C CNN
+F 3 "" H 1525 5200 50  0000 C CNN
+F 4 "fit: " H 1325 5200 50  0001 C CNN "Fit"
+	1    1325 5200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L candleLight-rescue:TEST_1P W208
 U 1 1 57225FCB
-P 2000 5300
-F 0 "W208" V 2000 5600 50  0000 C CNN
-F 1 "TEST_1P" V 2000 5850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5300 50  0001 C CNN
-F 3 "" H 2200 5300 50  0000 C CNN
-F 4 "fit: " H 2000 5300 50  0001 C CNN "Fit"
-	1    2000 5300
+P 1325 5300
+F 0 "W208" V 1325 5600 50  0000 C CNN
+F 1 "TEST_1P" V 1325 5850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1525 5300 50  0001 C CNN
+F 3 "" H 1525 5300 50  0000 C CNN
+F 4 "fit: " H 1325 5300 50  0001 C CNN "Fit"
+	1    1325 5300
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1400 4400
@@ -645,4 +645,32 @@ Wire Wire Line
 Connection ~ 900  3150
 Text Notes 4250 6525 0    60   ~ 0
 Short this footprint and power up the board to enter DFU bootloader mode.
+Wire Wire Line
+	2000 5000 1325 5000
+Wire Wire Line
+	1325 5100 2000 5100
+Wire Wire Line
+	2000 5200 1325 5200
+Wire Wire Line
+	1325 5300 2000 5300
+Wire Wire Line
+	9600 4700 10150 4700
+Wire Wire Line
+	10150 4800 9600 4800
+Text Label 9800 4700 0    60   ~ 0
+TX
+Text Label 9800 4800 0    60   ~ 0
+RX
+Text Label 1525 5000 0    60   ~ 0
+CS
+Text Label 1525 5100 0    60   ~ 0
+SCK
+Text Label 1525 5200 0    60   ~ 0
+MISO
+Text Label 1525 5300 0    60   ~ 0
+MOSI
+Text Label 1550 4400 0    60   ~ 0
+SCL
+Text Label 1550 4500 0    60   ~ 0
+SDA
 $EndSCHEMATC

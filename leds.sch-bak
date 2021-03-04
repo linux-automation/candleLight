@@ -67,7 +67,7 @@ F 3 "" H 5150 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 3550 5150 4350
+	5150 3550 5150 3650
 Connection ~ 5150 3650
 Connection ~ 5150 4000
 $Comp
@@ -137,4 +137,8 @@ Wire Wire Line
 	5150 4350 5300 4350
 Wire Wire Line
 	5600 4350 5700 4350
+Wire Wire Line
+	5150 3650 5150 4000
+Wire Wire Line
+	5150 4000 5150 4350
 $EndSCHEMATC

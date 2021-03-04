@@ -166,18 +166,6 @@ F 3 "" H 4550 2950 50  0000 C CNN
 	1    4550 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L candleLight-rescue:R R402
-U 1 1 56F69E23
-P 6650 3150
-F 0 "R402" H 6720 3222 50  0000 L CNN
-F 1 "dnp" H 6720 3131 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 6580 3150 50  0001 C CNN
-F 3 "" H 6650 3150 50  0000 C CNN
-F 4 "fit: none" H 6720 3059 25  0000 L CNN "Fit"
-	1    6650 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 3100 6450 3100
 Wire Wire Line
@@ -198,4 +186,16 @@ Wire Wire Line
 	6650 3300 6950 3300
 Wire Wire Line
 	6650 3000 6950 3000
+$Comp
+L candleLight-rescue:R R402
+U 1 1 56F69E23
+P 6650 3150
+F 0 "R402" V 6730 3150 50  0000 C CNN
+F 1 "dnp" V 6650 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6580 3150 50  0001 C CNN
+F 3 "" H 6650 3150 50  0000 C CNN
+F 4 "fit: none" V 6775 3150 25  0000 C CNN "Fit"
+	1    6650 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
