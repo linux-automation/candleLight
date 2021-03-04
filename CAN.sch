@@ -57,6 +57,7 @@ F 1 "100nF" H 6010 4570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6000 4650 50  0001 C CNN
 F 3 "" H 6000 4650 50  0000 C CNN
 F 4 "fit: " H 6000 4650 50  0001 C CNN "Fit"
+F 5 "10V" H 6125 4650 25  0000 C CNN "CapRatedVoltage"
 	1    6000 4650
 	1    0    0    -1  
 $EndComp
@@ -69,6 +70,7 @@ F 1 "100nF" H 5710 4570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5700 4650 50  0001 C CNN
 F 3 "" H 5700 4650 50  0000 C CNN
 F 4 "fit: " H 5700 4650 50  0001 C CNN "Fit"
+F 5 "10V" H 5825 4650 25  0000 C CNN "CapRatedVoltage"
 	1    5700 4650
 	1    0    0    -1  
 $EndComp

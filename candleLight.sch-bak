@@ -9,7 +9,7 @@ Date "2021-03-03"
 Rev "R01"
 Comp "Linux Automation GmbH"
 Comment1 "released"
-Comment2 "candleLight-S01-R01-V01-C00"
+Comment2 "candleLight-S01-R01-V01"
 Comment3 "github.com/linux-automation/candlelight-S01"
 Comment4 ""
 $EndDescr
@@ -163,4 +163,6 @@ F 4 "fit: " H 9900 1750 50  0001 C CNN "Fit"
 	1    9900 1750
 	1    0    0    -1  
 $EndComp
+Text Notes 750  6975 0    60   ~ 0
+Variants:\n=======\nV1: Complete assembly\nV2: V1 but without THT-components (SMD only) [Created manually in Post]\nV3: V1 but only THT-components (no SMD) [Created manually in Post]\n
 $EndSCHEMATC

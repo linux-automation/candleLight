@@ -69,6 +69,7 @@ F 1 "10uF" H 5110 3870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5100 3950 50  0001 C CNN
 F 3 "" H 5100 3950 50  0000 C CNN
 F 4 "fit: " H 5100 3950 50  0001 C CNN "Fit"
+F 5 "10V" H 5225 3950 25  0000 C CNN "CapRatedVoltage"
 	1    5100 3950
 	1    0    0    -1  
 $EndComp
@@ -81,6 +82,7 @@ F 1 "10uF" H 6160 3870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6150 3950 50  0001 C CNN
 F 3 "" H 6150 3950 50  0000 C CNN
 F 4 "fit: " H 6150 3950 50  0001 C CNN "Fit"
+F 5 "10V" H 6275 3950 25  0000 C CNN "CapRatedVoltage"
 	1    6150 3950
 	1    0    0    -1  
 $EndComp

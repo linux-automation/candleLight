@@ -223,6 +223,7 @@ F 1 "100nF" H 2510 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2500 6850 50  0001 C CNN
 F 3 "" H 2500 6850 50  0000 C CNN
 F 4 "fit: " H 2500 6850 50  0001 C CNN "Fit"
+F 5 "10V" H 2625 6850 25  0000 C CNN "CapRatedVoltage"
 	1    2500 6850
 	1    0    0    -1  
 $EndComp
@@ -257,6 +258,7 @@ F 1 "100nF" H 2210 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2200 6850 50  0001 C CNN
 F 3 "" H 2200 6850 50  0000 C CNN
 F 4 "fit: " H 2200 6850 50  0001 C CNN "Fit"
+F 5 "10V" H 2325 6850 25  0000 C CNN "CapRatedVoltage"
 	1    2200 6850
 	1    0    0    -1  
 $EndComp
@@ -291,6 +293,7 @@ F 1 "100nF" H 1910 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1900 6850 50  0001 C CNN
 F 3 "" H 1900 6850 50  0000 C CNN
 F 4 "fit: " H 1900 6850 50  0001 C CNN "Fit"
+F 5 "10V" H 2025 6850 25  0000 C CNN "CapRatedVoltage"
 	1    1900 6850
 	1    0    0    -1  
 $EndComp
@@ -325,6 +328,7 @@ F 1 "100nF" H 1610 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1600 6850 50  0001 C CNN
 F 3 "" H 1600 6850 50  0000 C CNN
 F 4 "fit: " H 1600 6850 50  0001 C CNN "Fit"
+F 5 "10V" H 1725 6850 25  0000 C CNN "CapRatedVoltage"
 	1    1600 6850
 	1    0    0    -1  
 $EndComp
@@ -359,6 +363,7 @@ F 1 "10uF" H 2960 6770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2950 6850 50  0001 C CNN
 F 3 "" H 2950 6850 50  0000 C CNN
 F 4 "fit: " H 2950 6850 50  0001 C CNN "Fit"
+F 5 "10V" H 3075 6850 25  0000 C CNN "CapRatedVoltage"
 	1    2950 6850
 	1    0    0    -1  
 $EndComp
@@ -549,6 +554,7 @@ F 1 "100nF" H 1360 2570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1350 2650 50  0001 C CNN
 F 3 "" H 1350 2650 50  0000 C CNN
 F 4 "fit: " H 1350 2650 50  0001 C CNN "Fit"
+F 5 "10V" H 1500 2650 25  0000 C CNN "CapRatedVoltage"
 	1    1350 2650
 	1    0    0    -1  
 $EndComp
