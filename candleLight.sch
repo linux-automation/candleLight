@@ -165,4 +165,15 @@ F 4 "fit: " H 9900 1750 50  0001 C CNN "Fit"
 $EndComp
 Text Notes 750  6975 0    60   ~ 0
 Variants:\n=======\nV1: Complete assembly\nV2: V1 but without THT-components (SMD only) [Created manually in Post]\nV3: V1 but only THT-components (no SMD) [Created manually in Post]\n
+$Comp
+L logo:LAG_logo NB101
+U 1 1 6040F88F
+P 9825 2100
+F 0 "NB101" H 9903 2153 60  0000 L CNN
+F 1 "LAG_logo" H 9903 2047 60  0000 L CNN
+F 2 "logo:lag_rocket_10mmx10.4mm" H 9825 2100 60  0001 C CNN
+F 3 "" H 9825 2100 60  0001 C CNN
+	1    9825 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

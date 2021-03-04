@@ -273,6 +273,18 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# logo_LAG_logo
+#
+DEF logo_LAG_logo NB 0 40 Y Y 1 F N
+F0 "NB" 0 0 60 H V C CNN
+F1 "logo_LAG_logo" 0 0 60 H V C CNN
+F2 "logo:lag_rocket_10mmx10.4mm" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
