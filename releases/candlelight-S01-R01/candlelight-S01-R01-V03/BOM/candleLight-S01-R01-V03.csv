@@ -1,0 +1,10 @@
+Company: Linux Automation GmbH
+PCBA-Name: candleLight.sch
+PCBA-Revision: R01
+Placement-Version: V03
+PCBA-Title: candleLight
+Release-State: released
+Release-Date: 2021-03-03
+
+count,reference,manufacturer,mpn,value,description,capratedvoltage,fit,footprint,libref,libsource,tstamp
+1.0,P501,Molex,47491-0001,USB_OTG, ,nan,all,"nan, usb:Molex-Micro-USB-B-Middle-Mount",P,candleLight-rescue:USB_OTG,56F68043

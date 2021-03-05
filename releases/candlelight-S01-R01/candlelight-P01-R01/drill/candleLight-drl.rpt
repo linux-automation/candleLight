@@ -1,0 +1,23 @@
+Drill report for /home/jma/projects-new/iobus/candlelight/candleLight/candleLight.kicad_pcb
+Created on Thu 04 Mar 2021 05:45:12 PM CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'candleLight-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (48 holes)
+
+    Total plated holes count 48
+
+
+Drill file 'candleLight-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.99mm  0.039"  (3 holes)
+
+    Total unplated holes count 3

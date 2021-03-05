@@ -1,4 +1,4 @@
-update=Thu 04 Mar 2021 11:37:43 AM CET
+update=Thu 04 Mar 2021 05:43:35 PM CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=ptx.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=releases/candlelight-S01-R01/candlelight-S01-R01-V01/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
@@ -63,7 +63,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
