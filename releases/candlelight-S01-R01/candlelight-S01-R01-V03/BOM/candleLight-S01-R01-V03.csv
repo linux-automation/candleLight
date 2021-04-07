@@ -4,7 +4,7 @@ PCBA-Revision: R01
 Placement-Version: V03
 PCBA-Title: candleLight
 Release-State: released
-Release-Date: 2021-03-03
+Release-Date: 2021-04-06
 
-count,reference,manufacturer,mpn,value,description,capratedvoltage,fit,footprint,libref,libsource,tstamp
-1.0,X502,Kobiconn,156-1209T-E,SUB-D9, ,nan,all,"nan, Connect:DB9M_CI",X,candleLight-rescue:SUB-D9,56F5D127
+count,reference,manufacturer,mpn,value,description,capratedvoltage,fit,footprint,libref,libsource
+1.0,X502,Kobiconn,156-1209T-E,SUB-D9, ,nan,all,"Connect:DB9M_CI",X,candleLight-rescue:SUB-D9

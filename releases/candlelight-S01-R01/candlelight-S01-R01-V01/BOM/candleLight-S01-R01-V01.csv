@@ -4,14 +4,19 @@ PCBA-Revision: R01
 Placement-Version: V01
 PCBA-Title: candleLight
 Release-State: released
-Release-Date: 2021-03-03
+Release-Date: 2021-04-07
 
-count,reference,manufacturer,mpn,value,description,capratedvoltage,fit,footprint,libref,libsource,tstamp
-10.0,"C403, C206, C301, C204, C205, C208, C207, C402, C303, C203",nan,nan,"C_Small, 10uF, 100nF", ,10V,all,"nan, Capacitors_SMD:C_0603, Capacitors_SMD:C_0805",C,candleLight-rescue:C_Small,"56F5A44C, 56F5410C, 56F540FA, 56F611D6, 56F5404F, 56F54256, 57225548, 56F53D48, 56F60BBB, 56F5A3FD"
-3.0,"D603, D601, D602",Kingbright,"APT1608EC, APT1608YC, APT1608SGC",LED, ,nan,all,"nan, LEDs:LED_0603",D,candleLight-rescue:LED,"56F5F923, 56F5F775, 56F5F971"
-1.0,U301,Microchip,MCP1754ST-3302E/MB,"MCP1754ST-3302E/MB, MCP1754ST-3302E_MB", ,nan,all,"nan, TO_SOT_Packages_SMD:SOT89-3_Housing",U,candleLight-rescue:MCP1754ST-3302E_MB,56F609E7
-7.0,"R602, R603, R201, R204, R601, R202, R401",nan,nan,"R, 1K, 4K7, 10K", ,nan,all,"nan, Resistors_SMD:R_0603",R,candleLight-rescue:R,"56F50E38, 56F69C0C, 56F67521, 56F67576, 56F67763, 56F50945, 56F508B6"
-1.0,U201,ST,STM32F072C8T6,STM32F072C8Tx, ,nan,all,"LQFP48, Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm",U,candleLight-rescue:STM32F072C8Tx,56F46EB5
-1.0,X502,Kobiconn,156-1209T-E,SUB-D9, ,nan,all,"nan, Connect:DB9M_CI",X,candleLight-rescue:SUB-D9,56F5D127
-1.0,U401,NXP,TJA1051T/3/1J,"TJA1051_3, TJA1051/3", ,nan,all,"nan, Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm",U,candleLight-rescue:TJA1051_3,56F5A273
-1.0,P501,Molex,47491-0001,USB_OTG, ,nan,all,"nan, usb:Molex-Micro-USB-B-Middle-Mount",P,candleLight-rescue:USB_OTG,56F68043
+count,reference,manufacturer,mpn,value,description,capratedvoltage,fit,footprint,libref,libsource
+3.0,"C301, C207, C303",nan,nan,"10uF", ,10V,all,"Capacitors_SMD:C_0805",C,candleLight-rescue:C_Small
+7.0,"C203, C204, C205, C206,C208, C402, C403",nan,nan,"100nF", ,10V,all,"Capacitors_SMD:C_0603",C,candleLight-rescue:C_Small
+1.0,"D601",Kingbright,"APT1608SGC",LED, ,nan,all,"LEDs:LED_0603",D,candleLight-rescue:LED
+1.0,"D602",Kingbright,"APT1608YC",LED, ,nan,all,"LEDs:LED_0603",D,candleLight-rescue:LED
+1.0,"D603",Kingbright,"APT1608EC",LED, ,nan,all,"LEDs:LED_0603",D,candleLight-rescue:LED
+1.0,U201,ST,STM32F072C8T6,STM32F072C8Tx, ,nan,all,"LQFP48, Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm",U,candleLight-rescue:STM32F072C8Tx
+1.0,U301,Microchip,MCP1754ST-3302E/MB,"MCP1754ST-3302E/MB, MCP1754ST-3302E_MB", ,nan,all,"TO_SOT_Packages_SMD:SOT89-3_Housing",U,candleLight-rescue:MCP1754ST-3302E_MB
+2.0,"R201, R202",nan,nan,"4K7", ,nan,all,"Resistors_SMD:R_0603",R,candleLight-rescue:R
+4.0,"R204, R601, R602, R603",nan,nan,"1K", ,nan,all,"Resistors_SMD:R_0603",R,candleLight-rescue:R
+1.0,"R401",nan,nan,"10K", ,nan,all,"Resistors_SMD:R_0603",R,candleLight-rescue:R
+1.0,X502,Kobiconn,156-1209T-E,SUB-D9, ,nan,all,"Connect:DB9M_CI",X,candleLight-rescue:SUB-D9
+1.0,U401,NXP,TJA1051T/3/1J,"TJA1051_3, TJA1051/3", ,nan,all,"Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm",U,candleLight-rescue:TJA1051_3
+1.0,P501,Molex,47491-0001,USB_OTG, ,nan,all,"usb:Molex-Micro-USB-B-Middle-Mount",P,candleLight-rescue:USB_OTG
